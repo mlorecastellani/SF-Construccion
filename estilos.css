@@ -286,6 +286,53 @@ footer{
     margin-bottom: 60px;
 }
 
+hr {
+    padding: auto;
+    height: 40px;
+    border-color: #4c3a74;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+
+}
+
+#boton {
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+form h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
 .social-media-icon:hover{
     background: #fff;
     color:#764ba2;
